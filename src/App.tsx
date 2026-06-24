@@ -206,21 +206,20 @@ export default function App() {
           cursorY={cursorPos.y}
         />
 
-        {/* Heading Stack */}
-        <h1 className="w-full flex flex-col pointer-events-none z-50 text-white font-serif tracking-tighter leading-[0.9] mt-[10vh] sm:mt-[15vh]">
-          <span
-            className="hero-reveal-text block font-extrabold italic text-[clamp(2.5rem,7vw,7.5rem)] bg-gradient-to-br from-amber-900 via-orange-500 to-amber-700 bg-clip-text text-transparent origin-bottom drop-shadow-[0_8px_16px_rgba(0,0,0,0.7)]"
-            style={{ letterSpacing: "-0.04em" }}
-          >
-            LAYERS HOLD
-          </span>
-          <span
-            className="hero-reveal-text block font-black uppercase text-[clamp(2.5rem,7vw,7.5rem)] -mt-[0.15em] bg-gradient-to-br from-slate-900 via-slate-500 to-slate-500 bg-clip-text text-transparent origin-bottom drop-shadow-[0_12px_24px_rgba(0,0,0,0.9)]"
-            style={{ letterSpacing: "-0.06em" }}
-          >
-            TALES OF TIME
-          </span>
-        </h1>
+      <h1 className="w-full flex flex-col pointer-events-none z-50 text-white font-serif tracking-tighter leading-[0.9] mt-[10vh] sm:mt-[15vh]">
+  <span
+    className="hero-reveal-text block font-extrabold italic text-[clamp(1.75rem,4.5vw,4.5rem)] bg-gradient-to-br from-amber-900 via-orange-500 to-amber-700 bg-clip-text text-transparent origin-bottom drop-shadow-[0_6px_12px_rgba(0,0,0,0.7)]"
+    style={{ letterSpacing: "-0.04em" }}
+  >
+    LAYERS HOLD
+  </span>
+  <span
+    className="hero-reveal-text block font-black uppercase text-[clamp(1.75rem,4.5vw,4.5rem)] -mt-[0.15em] bg-gradient-to-br from-slate-900 via-slate-500 to-slate-500 bg-clip-text text-transparent origin-bottom drop-shadow-[0_8px_16px_rgba(0,0,0,0.9)]"
+    style={{ letterSpacing: "-0.06em" }}
+  >
+    TALES OF TIME
+  </span>
+</h1>
 
         {/* Bottom Content Area (Responsive Grid/Flex Arrangement) */}
         <div className="relative z-50 flex flex-col lg:flex-row items-start lg:items-end justify-between gap-8 md:gap-12 w-full pb-4">
