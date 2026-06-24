@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.geo-text {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 1.125rem; /* Larger, readable size */
+  line-height: 1.75;
+  font-weight: 500;
+  max-width: 36rem;
+  cursor: pointer;
+  
+  /* Premium warm earth gradient matching the lava background */
+  background: linear-gradient(90deg, #fcd34d, #fdba74, #f472b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Smooth transition effect for color change and subtle lift */
+  transition: background 0.5s ease, transform 0.3s ease;
+}
+
+/* Hover transition effect: Shifts colors to brighter tones and lifts slightly */
+.geo-text:hover {
+  background: linear-gradient(90deg, #fbbf24, #f97316, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  transform: translateY(-2px);
+}
